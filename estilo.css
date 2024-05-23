@@ -1,0 +1,43 @@
+header {
+    background-color:#ffffff;
+    padding: 3px;  
+    text-align: center;
+    font-size: larger;
+}    
+
+/* imagens do site */ 
+#meu_logo{
+    width: 250px;
+    padding: 5px;
+}
+
+#engrenagem_site{
+    width: 280px;
+    padding: 5px;
+   
+}
+/* titulos do site */
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(69, 41, 191);
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(69, 41, 191);
+}
+/* articles */
+article{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* divs do site */
+div.about_me{
+    text-align: center;
+}
+div.meus_projetos{
+    text-align: center;
+}
