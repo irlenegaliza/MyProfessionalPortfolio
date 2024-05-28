@@ -13,26 +13,43 @@ header {
 
 #engrenagem_site{
     width: 280px;
-    padding: 5px;
-   
+    padding: 5px;   
 }
+
+#samissone_site{
+    width: 350px;
+    padding: 5px;
+}
+
+#gestao_redes_sociais{
+    width: 350px;
+    padding: 5px;
+}
+
+#logotipos{
+    width: 350px;
+    padding: 5px;
+}
+
 /* titulos do site */
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(69, 41, 191);
+    color: #2c4af3;
 }
 
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
-    color: rgb(69, 41, 191);
+    color:#2c4af3;
 }
 
 h3{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
-    color: rgb(4, 1, 18);
+    color: #060b28;
 }
+
+
 
 /* articles */
 article{
@@ -48,11 +65,66 @@ div.about_me{
 div.meus_projetos{
     text-align: center;
 }
-div.formulario_de_contato{
-    text-align: center;
-    border-radius: 5px;
-    background-color: #95d5ff;
-    padding: 20px;
-}
+
 
 /* Formulario de contato */
+
+.form_contato{
+    text-align: center;
+    border-radius: 5px;
+    background-image: url("imagens/background_form.png");
+    padding: 30px;
+}
+
+#text_form{
+    text-align: center;
+}
+
+input[type=text],textarea{
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=tel]{
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=email]{
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4fb4f8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%;
+    text-align: center;
+  }
+
+  
+input[type=submit]:hover {
+    background-color: #0d3b55;
+  }
