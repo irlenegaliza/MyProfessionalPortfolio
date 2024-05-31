@@ -133,7 +133,7 @@ textarea{
     resize: none;
 }
 
-input[type=submit]{
+button{
     display: block;
     background-color:#4fb4f8;
     height: 35px;
@@ -147,7 +147,7 @@ input[type=submit]{
 }
 
 
-input[type=submit]:hover {
+button:hover {
     background-color: #cf5adf;
   }
 
