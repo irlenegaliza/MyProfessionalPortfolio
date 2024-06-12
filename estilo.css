@@ -1,106 +1,207 @@
+/* --------------------Inicio da página ------------------------*/
 header {
-    background-color:#ffffff;
-    padding: 3px;  
+    background-color: #fefefe;
+    padding: 3px;
     text-align: center;
     font-size: larger;
-}    
-
-/* imagens do site */ 
-#meu_logo{
-    width: 250px;
-    padding: 5px;
 }
 
-#engrenagem_site{
-    width: 280px;
-    padding: 5px;   
-}
-
-#samissone_site{
+/* imagens do meu logo site */
+#meu_logo {
     width: 350px;
-    padding: 5px;
+    padding-top: 100px;
+    padding-bottom: 8px;
+    text-align: center;
 }
 
-#gestao_redes_sociais{
-    width: 350px;
-    padding: 5px;
-}
-
-#logotipos{
-    width: 350px;
-    padding: 5px;
-}
-
-/* titulos do site */
-h1{
+/* titulos do meu nome */
+h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #2c4af3;
 }
 
-h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    color:#2c4af3;
+#meu_titulo_nome {
+    margin-top: 1%;
+    margin-bottom: -2%;
 }
 
-h3{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* articles da minha apresentação */
+article {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: -2%;
+}
+
+/* --------------------------Fim do primeiro bloco ------------------------*/
+
+
+
+/* --------------------------Inicio do bloco SOBRE MIM ------------------------*/
+/* Imagem da engrenagem */
+
+
+/* div do about-me */
+.conteiner_about_me {
+    width: 100%;
+    padding: 1%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    align-items: center;
+    margin-inline: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+#engrenagem_site_bkp {
+    width: 400px;
+    margin-bottom: 3%;
+    margin-left: 13%;
+    flex-grow: 1;
+    border: 1px solid #0b2df2;
+    border-radius: 2%;
+    height: auto;
+    margin-top: 6%;
+    padding: 1%;
+    align-content: center;
+}
+
+.conteiner_about_me_item_1 {
+
+    float: left;
+    margin: 0;
+    width: 30%;
+    border: 0;
+    flex-grow: 1;
+    margin-right: 1%;
+    flex: auto;
+    min-width: min-content;
+    padding: auto;
+    padding-right: -5%;
+
+}
+
+.conteiner_about_me_item_2 {
+
+    margin: 0%;
+    float: left;
+    border: 0;
+    width: 50%;
+    flex-grow: 2;
+    margin-right: 8%;
+    flex-grow: 2;
+    flex: auto;
+    min-width: min-content;
+    padding: 2%;
+    padding-right: -2%;
+    height: max-content;
+}
+
+#paragrafo_sobre_mim {
+    text-align: left;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+}
+
+
+/*------------ Meus projetos-------------*/
+/* Imagens */
+#samissone_site {
+    width: 350px;
+    text-align: center;
+
+}
+
+#gestao_redes_sociais {
+    width: 350px;
+
+}
+
+#logotipos {
+    width: 350px;
+
+}
+
+/* -------------DIV Meus projetos --------------------*/
+div.container_site_samissone {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    background-color: #5b4290;
+
+}
+
+div.meus_projetos_sites {
+
+    flex: 1;
+    width: 40%;
+}
+
+div.conteudo_meus_projetos {
+
+    flex: 2;
+    text-align: center;
+    width: 50%;
+
+}
+
+
+/*-----------TITULOS DO SITE -----------*/
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #2c4af3;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
     color: #060b28;
 }
 
 
 
-/* articles */
-article{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
-    text-align: center;
-}
 
-/* divs do site */
-div.about_me{
-    text-align: center;
-}
-div.meus_projetos{
-    text-align: center;
-}
+/* ---------Formulario de contato------------------- */
 
-
-/* Formulario de contato */
-
-div.formulario_contato{
+div.formulario_contato {
     width: 100%;
     background-image: url("imagens/background_form.png");
 
 }
 
-.form_contato{
+.form_contato {
     width: 30%;
     padding: 50px;
-    border:1px solid #4f2ca3;
+    border: 1px solid #4f2ca3;
     background-color: #ffffff;
     border-radius: 5px;
     display: block;
-    margin-left: auto; /* aqui */
-    margin-right: auto; /* e aqui */
-}   
+    margin-left: auto;
+    /* aqui */
+    margin-right: auto;
+    /* e aqui */
+}
 
-.form_contato h2{
+.form_contato h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
-    color:#2c4af3;
+    color: #2c4af3;
     width: 100%;
     text-align: center;
 }
 
-.form_contato p{
+.form_contato p {
     text-align: center;
     width: 100%;
     font-size: small;
 }
 
-.field{
+.field {
     width: 100%;
     margin: 18px 0;
 }
@@ -116,7 +217,7 @@ div.formulario_contato{
 
 input[type=text],
 input[type=email],
-textarea{
+textarea {
     width: 100%;
     padding-left: 10px;
     height: 35px;
@@ -126,16 +227,16 @@ textarea{
     outline: none;
 }
 
-textarea{
+textarea {
     line-height: 20px;
     padding: 10px;
     height: 90px;
     resize: none;
 }
 
-button{
+button {
     display: block;
-    background-color:#4fb4f8;
+    background-color: #4fb4f8;
     height: 35px;
     border: none;
     outline: 0;
@@ -149,7 +250,7 @@ button{
 
 button:hover {
     background-color: #cf5adf;
-  }
+}
 
 
 
@@ -283,4 +384,39 @@ input[type=text],textarea{
   
 input[type=submit]:hover {
     background-color: #0d3b55;
-  }/*
+  }*/
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.container img {
+    max-width: 400px;
+    text-align: center;
+}
+
+.container-child {
+    max-width: 700px;
+    padding: 0 10px 0 10px;
+}
+
+.container-child.left:has(img) {
+    display: flex;
+    justify-content: center;
+}
+
+.container-container-child.left_samissone{
+    display: flex;
+    justify-content: center;
+}
+
+.container-container-child.right_descricao_samissone{
+    max-width: 700px;
+    padding: 0 10px 0 10px;
+    justify-content: center;
+}
