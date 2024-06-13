@@ -10,6 +10,7 @@
 
 <body>
     <header>
+        <!--Cabeçalho inicial -->
         <div id="meu_logo_imagem">
             <img id="meu_logo" src="imagens/img_portfolio.jpg" alt="mulher negra como desenvolvedora">
         </div>
@@ -17,6 +18,7 @@
         <div id="meu_titulo_nome"><h1>Irlene Galiza</h1></div>   
     </header>
 
+    <!--texto de boas-vindas -->
     <article>
         <p>Olá. Seja bem-vindo(a)! <br>
             O meu objetivo é te ajudar a criar a sua página web profissional e 
@@ -24,12 +26,15 @@
             Leve a sua empresa ao próximo nível! </p>
     </article>
 
+    <!--Seção do Sobre mim  -->
     <div class="container">
 
+        <!--parte da imagem da engrenagem da seção Sobre mim -->
         <div class="container-child left">
             <img id="engrenagem_site" src="imagens/Irlene Galiza.gif" alt="engrenagens_de_fabrica">
         </div>
 
+        <!--parte do texto da seção Sobre Mim -->
         <div class="container-child right">
             <h2>Sobre mim</h2>
             <p id="paragrafo_sobre_mim">Sou uma desenvolvedora web dedicada e entusiasmada em criar experiências digitais incríveis. Desde que me apaixonei pelo mundo da programação, tenho trabalhado incansavelmente para me tornar uma especialista em transformar ideias em realidade.
@@ -40,74 +45,114 @@
             
             <br><br>Acredito firmemente na importância da colaboração e comunicação transparente com meus clientes. Meu objetivo é entender suas necessidades e objetivos para oferecer soluções sob medida que atendam às suas expectativas e ultrapassem suas metas. Comprometo-me a entregar projetos de alta qualidade, no prazo e dentro do orçamento.</p>
         </div>
-
     </div>
 
+    <!--Seção dos Meus Projetos -->
     <h2 style="text-align: center;">Meus projetos</h2>
-    <div class="container">
+    <div class="container_meus_projetos">
        
+        <!--imagem do projeto Samissone -->
         <div class="container-child left_samissone">
             <img id="samissone_site" src="imagens/Site.gif" alt="apresentacao_site_samissone">
         </div>
+
+        <!--parte descritiva do projeto Samissone -->
         <div class="container-child right_descricao_samissone">
             <h3>Sites e Landing Pages em HTML/CSS ou Wordpress</h3>
             <p>Desenvolvo sites e landing pages personalizados e responsivos, utilizando WordPress ou HTML e CSS que tem como vantagem a flexibilidade e facilidade de uso, permitindo atualizações regulares de conteúdo e personalização rápida, o que impulsiona a presença online do seu negócio.</p>
             <p>Clique aqui para acessar ao site de um de nossos clientes e conferir o resultado do nosso trabalho -></p><a href="https://www.samissone.com">Samissone</a>
         </div>
         
-
-        <div class="meus_projetos_gestao_redes_sociais">
+        <!--Imagem do projeto Redes Sociais -->
+        <div class="container-child left_gestao_redes_sociais">
             <img id="gestao_redes_sociais" src="imagens/Site (1).gif" alt="apresentacao_gestao_redes_sociais">
+        </div>
+
+        <!--parte descritiva do projeto Redes Sociais -->
+        <div class="container-child right_gestao_redes_sociais">
             <h3>Gestão de Redes Sociais</h3>
             <p>Criação e configuração de perfis nas redes sociais.
             Desenvolvimento de um calendário de conteúdo e criação de postagens regulares para aumentar o engajamento e a presença online.
             Monitoramento e análise de desempenho das campanhas para ajustes contínuos e otimização dos resultados.</p>
         </div>
 
-        <div class="meus_projetos_logotipos">
+        <!--Imagem do projeto Logotipos -->
+        <div class="container-child left_logotipos">
             <img id="logotipos" src="imagens/Site (2).gif" alt="apresentacao_logotipos">
+        </div>
+
+        <!--parte descritiva do projeto Logotipos -->
+        <div class="container-child right_logotipos">
             <h3>Criação de Logotipos</h3>
             <p>Criação de logos e identidade visual da marca.
             Desenvolvimento de materiais gráficos utilizando diferentes ferramentas como Photoshop e Canva para garantir uma aparência profissional e coesa.</p>
         </div>
-        
     </div>
 
-    <!--Formulario de Contato-->
+
+    <!--Seção MINHAS FORMAÇÕES -->
+    <h2 style="text-align: center;">Minhas Formações</h2>
+    <div class="container_formacoes">
+        <div class="container-titulo">
+            <h5>Experiência 01</h5>
+            <span>Agosto 2020 - janeiro 2021</span>
+        </div>
+
+        <div  class="container_formacoes_text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt veritatis qui, beatae non ex neque quos laborum, veniam eum, quisquam dicta ducimus necessitatibus nulla nemo quas tenetur. Facilis, excepturi voluptate.</p>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+    <!-- Seção do Formulario de Contato-->
     <div class="formulario_contato">
         <form class="form_contato" action="dados_form.php" method="post">
+            
+            <!--Cabeçalho inicial do formulario de contacto -->
             <div>
                 <h2>Contacte-me</h2>
-                <p id="text_form">Adoraria ouvir de você!<br>Entre em contato e 
-                compartilhe qualquer feedback ou dúvidas que possa ter. <br>
+                <p id="text_form">Adoraria ouvir de você! Entre em contato e 
+                compartilhe qualquer feedback ou dúvidas que possa ter.
                 Estou ansiosa para transformar suas ideias em realidade na web!
                 </p>
             </div>
 
+            <!--Labels NOME do formulario -->
             <div class="field">
                 <label for="nome"><strong>Nome:</strong> </label>
                 <input type="text" id="nome_id" placeholder="Seu nome aqui" required="required" name="nome"/>
                 <br>
             </div>
 
+            <!--Labels TELEFONE do formulario -->
             <div class="field">
                 <label for="telefone"><strong>Telemóvel:</strong></label>
                 <input type="text" id="fone_id" placeholder="(XX)xxx-xxx-xxx" name="telefone"/>  
                 <br>  
             </div>
             
+            <!--Labels EMAIL do formulario -->
             <div class="field">
                 <label for="email"><strong>Email:</strong></label>
                 <input type="email" id="email_id" placeholder="example@mail.com" required="required" name="email" />
                 <br>
             </div>
 
+            <!--Labels MENSAGEM do formulario -->
             <div class="field">
                 <label for="mensagem"><strong>Mensagem</strong></label>
                 <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem aqui..." style="height:150px"></textarea>
                 <br>
             </div>
 
+            <!--BOTÃO ENVIAR do formulario -->
             <div>
                 <button type="submit">Enviar</button>
             </div>
@@ -115,6 +160,7 @@
     </div>
 
     
+    <!--COPYRIGHT E REDES SOCIAIS -->
     <footer>
         <p>@2024IrleneWebSolutions. All rigths reserved.</p>
 
